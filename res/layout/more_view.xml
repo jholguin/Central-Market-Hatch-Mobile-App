@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+    
+    <TextView 
+    	android:id="@+id/MoreViewHdrText"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:text="More hatch"
+   		android:textColor="#FFFFFF"
+   		android:gravity="center"
+   		android:textSize="34px" />
+   		
+   	<TableLayout
+   		android:id="@+id/MoreViewBtns"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content">
+   		
+   		<TableRow>
+   			<ImageButton 
+   				android:src="@drawable/cmbuttonhowto" 
+   				android:layout_width="fill_parent"
+   				android:layout_height="wrap_content" 
+   				android:background="@null"/>
+   		</TableRow>
+   		
+   		<TableRow>
+   			<ImageButton 
+   				android:id="@+id/roasting"
+   				android:src="@drawable/cmbtnroasting" 
+   				android:layout_width="fill_parent"
+   				android:layout_height="wrap_content" 
+   				android:background="@null"/>
+   		</TableRow>
+   		
+   		<TableRow>
+   			<ImageButton 
+   				android:id="@+id/cmstores"
+   				android:src="@drawable/cmbtnstore" 
+   				android:layout_width="fill_parent"
+   				android:layout_height="wrap_content" 
+   				android:background="@null"/>
+   		</TableRow>
+   		
+   	</TableLayout>
+    
+</LinearLayout>
